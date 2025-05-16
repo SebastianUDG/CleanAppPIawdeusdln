@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SebastianUDG/CleanAppPIawdeusdln.git/static/css/main.2ef5baff.css",
-    "main.js": "/SebastianUDG/CleanAppPIawdeusdln.git/static/js/main.6ecde157.js",
-    "index.html": "/SebastianUDG/CleanAppPIawdeusdln.git/index.html",
-    "main.2ef5baff.css.map": "/SebastianUDG/CleanAppPIawdeusdln.git/static/css/main.2ef5baff.css.map",
-    "main.6ecde157.js.map": "/SebastianUDG/CleanAppPIawdeusdln.git/static/js/main.6ecde157.js.map"
+    "main.css": "/CleanAppPIawdeusdln/static/css/main.2ef5baff.css",
+    "main.js": "/CleanAppPIawdeusdln/static/js/main.9a671bb8.js",
+    "index.html": "/CleanAppPIawdeusdln/index.html",
+    "main.2ef5baff.css.map": "/CleanAppPIawdeusdln/static/css/main.2ef5baff.css.map",
+    "main.9a671bb8.js.map": "/CleanAppPIawdeusdln/static/js/main.9a671bb8.js.map"
   },
   "entrypoints": [
     "static/css/main.2ef5baff.css",
-    "static/js/main.6ecde157.js"
+    "static/js/main.9a671bb8.js"
   ]
 }
