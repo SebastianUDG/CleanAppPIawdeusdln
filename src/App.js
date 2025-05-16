@@ -7,7 +7,7 @@ import Servicio from './pages/Servicio';
 
 function App() {
   return (
-    <BrowserRouter basename="/CleanApp">
+    <BrowserRouter basename="/CleanAppPIawdeusdln">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
