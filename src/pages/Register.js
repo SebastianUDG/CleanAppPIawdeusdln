@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import '../App.css';
 
 export default function Register() {
@@ -10,16 +10,29 @@ export default function Register() {
   };
 
   return (
-    <div className="form-container register-form">
+    <div className="form-container login-form">
       <h1 style={{ marginBottom: '10px', color: 'var(--primary-color)' }}>Clean-Clean</h1>
       <h2 style={{ marginTop: '0' }}>Crear Cuenta</h2>
       <form onSubmit={onSubmit}>
         <input type="text" placeholder="Nombre completo" required />
         <input type="email" placeholder="Correo electrónico" required />
         <input type="password" placeholder="Contraseña" required />
-        <input type="tel" placeholder="Teléfono (opcional)" />
         <button type="submit">Registrarse</button>
       </form>
+      <p style={{ marginTop: '15px' }}>
+        ¿Ya tienes cuenta? <Link to="/">Inicia sesión</Link>
+      </p>
+      <div style={{ marginTop: '30px', textAlign: 'center' }}>
+        <p>Conoce más de nosotros:</p>
+        <a
+          href="https://www.facebook.com/C.LyP.CleanClean/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: 'var(--primary-color)', textDecoration: 'underline' }}
+        >
+          Facebook - C.LyP Clean Clean
+        </a>
+      </div>
     </div>
   );
 }

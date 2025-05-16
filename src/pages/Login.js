@@ -4,7 +4,7 @@ import '../App.css';
 
 export default function Login() {
   const nav = useNavigate();
-  const onSubmit = e => {
+  const onSubmit = (e) => {
     e.preventDefault();
     nav('/home');
   };
@@ -21,6 +21,17 @@ export default function Login() {
       <p style={{ marginTop: '15px' }}>
         ¿No tienes cuenta? <Link to="/register">Regístrate</Link>
       </p>
+      <div style={{ marginTop: '30px', textAlign: 'center' }}>
+        <p>Conoce más de nosotros:</p>
+        <a
+          href="https://www.facebook.com/C.LyP.CleanClean/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: 'var(--primary-color)', textDecoration: 'underline' }}
+        >
+          Facebook - C.LyP Clean Clean
+        </a>
+      </div>
     </div>
   );
 }
